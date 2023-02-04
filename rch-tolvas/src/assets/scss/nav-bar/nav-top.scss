@@ -1,0 +1,35 @@
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+
+    .nav-ubicacion{
+        width: 330px;
+        height: 30px;
+        border-right: 1px solid rgba(51,51,51,0.1);
+        padding: 0px 0 40px 15px;
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+    }
+    .nav-horarios{
+        flex: auto;
+        padding-left: 15px;
+    }
+    .nav-telefono{
+        
+        width: 207px;
+        span{
+            font-style: italic;
+            margin-left: 1px;
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}
