@@ -1,7 +1,10 @@
 *{
     font-family:'helvetica', 'sans-serif';
-    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 @import '../nav-bar/nav-top.scss';
 @import '../nav-bar/side-bar.scss';
 @import '../main/main.scss';
+@import '../servicios/servicios.scss'
