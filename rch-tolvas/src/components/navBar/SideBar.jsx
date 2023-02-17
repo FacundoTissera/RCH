@@ -21,8 +21,8 @@ function SideBar() {
         <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className=' mx-auto h4'>
             <Nav.Link href='#nosotros'><b> NOSOTROS </b></Nav.Link>
-            <Nav.Link href='#servicios'><b> SERVICIOS </b></Nav.Link>
             <Nav.Link href='#productos'><b> PRODUCTOS </b></Nav.Link>
+            <Nav.Link href='#servicios'><b> SERVICIOS </b></Nav.Link>
             <Nav.Link href='#ubicacion'><b> DONDE ESTAMOS </b></Nav.Link>
             <Nav.Link href='#fotos'><b> FOTOS </b></Nav.Link>
             </Nav>
