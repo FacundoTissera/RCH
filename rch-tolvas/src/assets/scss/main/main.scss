@@ -20,4 +20,15 @@
             width: 100%;
         }
     }
+    .button-whatsapp{
+        background-color: transparent;
+        position: fixed;
+        right: 60px;
+        bottom: 40px;
+        border: none;
+    
+        .whatsapp{
+            width: 50px;
+        }
+    }
 }
