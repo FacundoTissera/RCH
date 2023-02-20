@@ -1,0 +1,33 @@
+.titulo-ubicacion{
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 45px;
+    text-align: center;
+    
+}
+.ubicacion{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+   
+
+    .ubicacion-info{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .ubicacion-info-titulo{
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .ubicacion-info-texto{
+            font-weight: 400;
+            color: #000;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+    }
+}

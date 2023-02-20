@@ -7,6 +7,8 @@ import SideBar from "./components/navBar/SideBar";
 import Nosotros from "./components/main/Nosotros";
 import Service from "./components/service/Service";
 import Productos from "./components/productos/Productos";
+import Ubicacion from "./components/ubicacion/Ubicacion";
+import Fotos from "./components/fotos/Fotos";
 
   function App() {
     return (
@@ -16,6 +18,8 @@ import Productos from "./components/productos/Productos";
         <Nosotros />
         <Productos />
         <Service />
+        <Ubicacion />
+        <Fotos />
       </>
     );
   }
