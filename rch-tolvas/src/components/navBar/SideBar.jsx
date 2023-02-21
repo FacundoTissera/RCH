@@ -27,8 +27,8 @@ function SideBar() {
             <Nav.Link href='#fotos'><b> FOTOS </b></Nav.Link>
             </Nav>
             <Nav className='ms-auto'>
-            <Nav.Link>
-                <button className='button-contacto'> CONTACTO  </button>
+            <Nav.Link href='#contacto'>
+                <button  className='button-contacto'> CONTACTO  </button>
             </Nav.Link>
 
             </Nav>

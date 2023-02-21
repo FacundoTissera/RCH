@@ -1,0 +1,62 @@
+.foto-contacto{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contenedor-contacto{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-top: 50px; */
+    float: right;
+    margin-right: 160px;
+    position: relative;
+    bottom: 770px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+
+        div{
+            margin-top: 39px;
+            position: relative;
+            width: 390px;
+            height: 100px;
+            left: 65px;
+
+            h2{
+                font-weight: 600
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            position: relative;
+            /* width: 469px; */
+            /* height: 100px; */
+            left: 65px;
+            margin-top: 20px;
+
+            input, textarea{
+                margin-top: 20px;
+                background: rgba(71, 98, 255, 0.08);
+                border-radius: 8px;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+                color: #ACB4BF;
+            }
+
+            .boton-mail{
+                margin-bottom: 25px;
+                background-color: #102847;
+                color: #fff;
+                
+                height: 43px;
+                width: 100%;
+            }
+        }
+        
+}

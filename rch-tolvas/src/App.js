@@ -9,6 +9,7 @@ import Service from "./components/service/Service";
 import Productos from "./components/productos/Productos";
 import Ubicacion from "./components/ubicacion/Ubicacion";
 import Fotos from "./components/fotos/Fotos";
+import Contacto from "./components/contacto/Contacto";
 
   function App() {
     return (
@@ -20,6 +21,7 @@ import Fotos from "./components/fotos/Fotos";
         <Service />
         <Ubicacion />
         <Fotos />
+        <Contacto />
       </>
     );
   }
