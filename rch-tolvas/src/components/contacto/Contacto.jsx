@@ -13,7 +13,7 @@ export default function Contacto() {
                     <h2>CONTACTO</h2>
                     <p>Si desea contactarse con nosotros, por favor complete el siguiente formulario y nos pondremos en contacto a la brevedad.</p>
                 </div>
-                <form action="facundotisserasorribas@gmail.com" method='POST'>
+                <form action="https://formsubmit.co/facundotisserasorribas@gmail.com" method="POST">
                     
                     <label htmlFor="Nombre"> </label>
                     <input type="text" name="Nombre" id="Nombre" placeholder="Ingresa tu nombre y apellido" />
@@ -21,13 +21,16 @@ export default function Contacto() {
                     <label htmlFor="Telefono"> </label>
                     <input type="text" name="Telefono" id="Telefono" placeholder="Ingresa tu telefono" />
 
-                    <label htmlFor="Mail"></label>
-                    <input type="text" name="Mail" id="Mail" placeholder="Ingresa tu mail" />
+                    <label htmlFor="email"></label>
+                    <input type="text" name="email" id="email" placeholder="Ingresa tu email" />
 
                     <label htmlFor="Consulta"></label>
                     <textarea name="Consulta" id="Consulta" cols="30" rows="10" placeholder="Ingresa tu consulta"></textarea>
 
                     <input className='boton-mail' type="submit" value="Enviar" />
+
+                    <input type="hidden" name='_next' value='hhtp://localhost:3000' />
+                    <input type="hidden" name='_captcha' value='false' />
 
                 </form>
             </div>

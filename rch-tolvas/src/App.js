@@ -10,6 +10,7 @@ import Productos from "./components/productos/Productos";
 import Ubicacion from "./components/ubicacion/Ubicacion";
 import Fotos from "./components/fotos/Fotos";
 import Contacto from "./components/contacto/Contacto";
+import Footer from "./components/footer/Footer";
 
   function App() {
     return (
@@ -22,6 +23,7 @@ import Contacto from "./components/contacto/Contacto";
         <Ubicacion />
         <Fotos />
         <Contacto />
+        <Footer />
       </>
     );
   }

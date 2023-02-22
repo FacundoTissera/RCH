@@ -1,0 +1,47 @@
+.menu-footer{
+        background-color: #000000;
+        padding: 50px 0px 50px 40px;
+
+        display: flex; 
+        justify-content: space-between;   
+        width: 100%;
+        position: absolute;
+        img{
+            width: 20%;
+            
+        }
+        .nav-footer{
+            padding-left: 50px;
+        }
+        .contactos-footer{
+            padding-left: 0px;
+        }
+        .redes-footer{
+            padding-left: 50px;
+        }
+        .nav-footer, .contactos-footer, .redes-footer{
+            margin: 0px 0px 0px 0px;
+            width: 30%;
+            
+            h4{
+                color: #ffffff;
+                font-size: 1.5rem;
+                margin-bottom: 20px;
+            }
+            ul{
+                list-style: none;
+                li{
+                    margin: 10px 0;
+                    a{
+                        color: #ffffff;
+                        text-decoration: none;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+            .icono-redes{
+                margin: 10px 5px;
+                color: #ffffff;
+            }
+        }
+    }
